@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringBootApp",
+            "request": "launch",
+            "mainClass": "app.SpringBootApp",
+            "projectName": "springboot"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootApp<springboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "SpringBootApp",
+            "projectName": "springboot",
+            "args": ""
+        }
+    ]
+}
