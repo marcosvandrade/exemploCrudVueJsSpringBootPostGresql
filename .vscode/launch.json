@@ -16,6 +16,16 @@
             "mainClass": "SpringBootApp",
             "projectName": "springboot",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootApp<spring-boot-restapi-postgresql>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "app.SpringBootApp",
+            "projectName": "spring-boot-restapi-postgresql",
+            "args": ""
         }
     ]
 }
