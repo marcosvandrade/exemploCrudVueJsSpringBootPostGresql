@@ -2,10 +2,13 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - SpringBootApp",
+            "name": "Spring Boot-SpringBootApp<java-web-dev>",
             "request": "launch",
-            "mainClass": "app.SpringBootApp",
-            "projectName": "springboot"
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "spring.SpringBootApp",
+            "projectName": "java-web-dev",
+            "args": ""
         },
         {
             "type": "java",
@@ -13,18 +16,18 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "mainClass": "SpringBootApp",
+            "mainClass": "app.SpringBootApp",
             "projectName": "springboot",
             "args": ""
         },
         {
             "type": "java",
-            "name": "Spring Boot-SpringBootApp<spring-boot-restapi-postgresql>",
+            "name": "Spring Boot-SpringBootApp<springboot>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "mainClass": "app.SpringBootApp",
-            "projectName": "spring-boot-restapi-postgresql",
+            "mainClass": "spring.SpringBootApp",
+            "projectName": "springboot",
             "args": ""
         }
     ]
